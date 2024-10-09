@@ -23,6 +23,7 @@ function App() {
          <button onClick={colorRed}>red</button>
          <button onClick={colorGreen}>green</button>
          <button onClick={colorYellow}>yellow</button>
+         <button>voilet</button>
       </div>
 
     </div>
