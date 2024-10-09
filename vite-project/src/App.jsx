@@ -15,13 +15,21 @@ function App() {
  const colorYellow = ()=>{
   setColor('yellow')
 }
-  return 
+  return (
     
-    
+    <div style={{backgroundColor: color, height: "100vh"}}>
+    <p>welcome to color change</p>
+      <div>
+         <button onClick={colorRed}>red</button>
+         <button onClick={colorGreen}>green</button>
+         <button onClick={colorYellow}>yellow</button>
+      </div>
+
+    </div>
       
       
     
-  
+  )
 }
 
 export default App
